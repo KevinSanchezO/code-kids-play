@@ -10,7 +10,7 @@ export const ModuleCard = ({module}) => {
     }
 
     return (
-        <div className="col p-1">
+        <div className="col p-1 animate__animated animate__rubberBand">
             <div className="card">
                 <div className="row no-gutters">
                     <div className="col-1">
