@@ -1,17 +1,16 @@
-import { Route, Routes } from "react-router-dom"
-import { IntroductionPage } from "./pages/IntroductionPage"
-import { WelcomePage } from "./pages/WelcomePage"
+import { Navbar } from "./components"
+import { AppRouter } from "./router/AppRouter"
+
 
 export const CodeKidPlayApp = () => {
   return (
     <>
-        <Routes>
-            <Route path='/' element={<WelcomePage />}/>
 
-            <Route path='introduction' element={<IntroductionPage />}/>
+        <Navbar />
 
-            <Route path='/*' element={<WelcomePage />}/>
-        </Routes>
+        <div className="container">
+          <AppRouter />
+        </div>
     </>
   )
 }
