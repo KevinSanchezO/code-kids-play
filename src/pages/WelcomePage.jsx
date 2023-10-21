@@ -1,4 +1,4 @@
-import { ModulesList } from "../components"
+import { ModulesList, ScrollToTop } from "../components"
 
 export const WelcomePage = () => {
   return (
@@ -16,6 +16,8 @@ export const WelcomePage = () => {
       <hr />
 
       <ModulesList />
+
+      <ScrollToTop />
     </>
   )
 }
