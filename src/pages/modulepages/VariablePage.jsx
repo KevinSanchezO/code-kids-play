@@ -1,10 +1,15 @@
+import { useEffect } from "react"
 import { ButtonGroup, ScrollToTop } from "../../components"
 
 
 export const VariablePage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [])
+
   return (
     <>
-    <div className="d-flex flex-column align-items-center mt-3 p-4">
+    <div className="d-flex flex-column align-items-center mt-3 p-4 animate__animated animate__rubberBand">
       <h1>
       Variables y Tipos de Datos
       </h1>
