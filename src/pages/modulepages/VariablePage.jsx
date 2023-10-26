@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { ButtonGroup, ScrollToTop } from "../../components"
+import { ButtonGroup, ScrollToTop, ClipBoard } from "../../components"
 
 
 export const VariablePage = () => {
@@ -26,9 +26,12 @@ export const VariablePage = () => {
       mascota. Cuando quieras saber el nombre de tu mascota, solo tienes que abrir la caja  <br/>
       "nombre" y ver lo que hay adentro. Las variables son como estas cajas, y te ayudan a guardar  <br/>
       información en un programa de computadora.
+      <ClipBoard codigo = 
+      {
+`nombre_mascota = "Rex"`} />
       </p>
 
-      {/* Ejemplo 1 */}
+
 
       <p className="mt-2">
       En este ejemplo, hemos creado una variable llamada 'nombre_mascota' y le hemos asignado<br/>
@@ -53,9 +56,12 @@ export const VariablePage = () => {
       <p className="mt-2">
       Los números son útiles para hacer cálculos en la programación. Puedes tener números enteros<br/>
       (como 5) o números con decimales (como 3.14).  
+      <ClipBoard codigo = 
+      {
+`edad = 10
+nota = 8.5`
+} />
       </p>
-
-      {/* Ejemplo 2 */}
 
       <h5 className="mt-2">
       2. Cadenas de texto 
@@ -63,10 +69,13 @@ export const VariablePage = () => {
 
       <p className="mt-2">
       Las cadenas de texto son como palabras o frases que puedes usar en tus programas. Puedes<br/>
-      poner texto entre comillas simples (' ') o comillas dobles (" ").  
+      poner texto entre comillas simples (' ') o comillas dobles (" "). 
+      <ClipBoard codigo = 
+      {
+`nombre = "Luna"
+frase = 'Hola, ¿cómo estás?'`
+} /> 
       </p>
-
-      {/* Ejemplo 3 */}
 
       <h5 className="mt-2">
       2. Booleanos
@@ -75,9 +84,12 @@ export const VariablePage = () => {
       <p className="mt-2">
       Los booleanos son como interruptores que pueden estar "encendidos" (True) o "apagados" <br/>
       (False). Los usamos para tomar decisiones en la programación.
+      <ClipBoard codigo = 
+      {
+`es_dia_soleado = True
+es_noche = False`
+} /> 
       </p>
-
-      {/* Ejemplo 4 */}
 
       <h3 className="mt-2">
       Declaración de variables y asignación de valores
@@ -87,9 +99,17 @@ export const VariablePage = () => {
       Para crear una variable, primero debes declararla y luego asignarle un valor. La declaración <br/>
       le dice a la computadora que quieres usar una caja, y la asignación le dice qué guardar <br/>
       dentro de la caja.
+      <ClipBoard codigo = 
+      {
+`# Declaración de variable
+nombre = ""
+
+# Asignación de valor
+nombre = "Juan"`
+} /> 
       </p>
 
-      {/* Ejemplo 5 */}
+      
 
       <p className="mt-2">
       En este ejemplo, hemos declarado una variable llamada nombre y luego le hemos asignado<br/>

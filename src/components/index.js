@@ -4,3 +4,4 @@ export * from './ModuleCard';
 export * from './ScrollToTop'
 export * from './ButtonGroup'
 export * from './PythonCodeDisplay'
+export * from './ClipBoard'

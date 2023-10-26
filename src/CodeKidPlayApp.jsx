@@ -7,7 +7,6 @@ export const CodeKidPlayApp = () => {
     <>
 
         <Navbar />
-
         <div className="container">
           <AppRouter />
         </div>
