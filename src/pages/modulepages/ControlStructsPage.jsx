@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ButtonGroup, ScrollToTop } from "../../components";
+import { ButtonGroup, ScrollToTop , ClipBoard } from "../../components";
 
 export const ControlStructsPage = () => {
   useEffect(() => {
@@ -46,9 +46,17 @@ export const ControlStructsPage = () => {
       Imagina que estás en una encrucijada y debes elegir un camino. Los condicionales <br/>
       funcionan de manera similar, te permiten elegir entre varias opciones en función de <br/>
       condiciones específicas.
-      </p>
+      <ClipBoard codigo = 
+      {
+`edad = 12
 
-      {/* Ejemplo */}
+if edad < 10:
+    print("Eres un niño.")
+elif edad >= 10 and edad < 18:
+    print("Eres un adolescente.")
+else:
+    print("Eres un adulto.")`} />
+      </p>
 
       <p className="mt-2">
       Así, dependiendo de tu edad, se muestra un mensaje diferente.
@@ -72,9 +80,14 @@ export const ControlStructsPage = () => {
       <p className="mt-2">
       El bucle "while" te permite repetir una acción mientras una condición sea verdadera. Es <br/>
       como repetir una tarea hasta que se cumpla cierta condición.
-      </p>
+      <ClipBoard codigo = 
+      {
+`contador = 0
 
-      {/* Ejemplo */}
+while contador < 5:
+    print("Hola, mundo!")
+    contador += 1`} />
+      </p>
 
       <p className="mt-2">
       Así, se imprime "Hola, mundo" cinco veces.  
@@ -87,15 +100,17 @@ export const ControlStructsPage = () => {
       <p className="mt-2">
       El bucle "for" es ideal para recorrer elementos en una colección, como una lista. Facilita la <br/>
       iteración a través de los elementos.
-      </p>
+      <ClipBoard codigo = 
+      {
+`colores = ["rojo", "verde", "azul"]
 
-      {/* Ejemplo */}
+for color in colores:
+    print("Color: " + color)`} />
+      </p>
 
       <p className="mt-2">
       Esto mostrará los colores uno por uno.  
       </p>
-
-
 
       <h3 className="mt-2">
       Uso de las instrucciones break y continue
@@ -113,9 +128,13 @@ export const ControlStructsPage = () => {
       <p className="mt-2">
       La instrucción "break" te permite salir inmediatamente de un bucle si se cumple cierta <br/>  
       condición.
+      <ClipBoard codigo = 
+      {
+`for numero in range(10):
+if numero == 5:
+    break
+print(numero)`} />
       </p>
-
-      {/* Ejemplo */}
 
       <p className="mt-2">
       Esto imprimirá los números del 0 al 4 y luego saldrá del bucle.
@@ -127,6 +146,12 @@ export const ControlStructsPage = () => {
 
       <p className="mt-2">
       La instrucción "continue" te permite saltar una iteración y pasar a la siguiente en un bucle.
+      <ClipBoard codigo = 
+      {
+`for numero in range(10):
+if numero % 2 == 0:
+    continue
+print(numero)`} />
       </p>
 
       {/* Ejemplo */}

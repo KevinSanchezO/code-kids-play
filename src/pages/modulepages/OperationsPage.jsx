@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ButtonGroup, ScrollToTop } from "../../components"
+import { ButtonGroup, ScrollToTop, ClipBoard } from "../../components"
 
 export const OperationsPage = () => {
   useEffect(() => {
@@ -36,9 +36,10 @@ export const OperationsPage = () => {
       <p className="mt-2">
       La suma es la acción de agregar números. En Python, puedes sumar números utilizando el <br/>
       símbolo '+'.
+      <ClipBoard codigo = 
+      {
+`resultado = 5 + 3`} />
       </p>
-
-      {/* Ejemplo */}
 
       <h5 className="mt-2">
       2. Resta
@@ -47,11 +48,11 @@ export const OperationsPage = () => {
       <p className="mt-2">
       La resta es la acción de quitar un número de otro. En Python, puedes restar números <br/>
       utilizando el símbolo '-'.
+      <ClipBoard codigo = 
+      {
+`resultado = 10 - 4`} />
       </p>
 
-      {/* Ejemplo */}
-
-    
       <h5 className="mt-2">
       3. Multiplicación
       </h5>
@@ -59,10 +60,10 @@ export const OperationsPage = () => {
       <p className="mt-2">
       La multiplicación es la acción de repetir un número varias veces. En Python, puedes  <br/>
       multiplicar números utilizando el símbolo '*'.
+      <ClipBoard codigo = 
+      {
+`resultado = 3 * 7`} />
       </p>
-
-      {/* Ejemplo */}
-
 
       <h5 className="mt-2">
       4. División
@@ -71,10 +72,10 @@ export const OperationsPage = () => {
       <p className="mt-2">
       La división es la acción de repartir un número en partes iguales. En Python, puedes dividir  <br/>
       números utilizando el símbolo '/'.
+      <ClipBoard codigo = 
+      {
+`resultado = 12 / 4`} />
       </p>
-
-      {/* Ejemplo */}
-
 
       <h3 className="mt-2">
       Concatenación de cadenas de texto
@@ -83,9 +84,12 @@ export const OperationsPage = () => {
       <p className="mt-2">
       La concatenación es la acción de unir cadenas de texto. Puedes unir palabras o frases para <br/>
       crear una cadena de texto más larga en Python.
+      <ClipBoard codigo = 
+      {
+`nombre = "Juan"
+apellido = "Pérez"
+nombre_completo = nombre + " " + apellido`} />
       </p>
-
-      {/* Ejemplo */}
 
       <p className="mt-2">
       En este ejemplo, hemos unido las cadenas "nombre" y "apellido" para obtener "nombre_completo".<br/>
@@ -102,9 +106,14 @@ export const OperationsPage = () => {
       <p className="mt-2">
       El operador lógico 'AND' se utiliza cuando necesitas que dos condiciones sean verdaderas <br/>
       para que se cumpla una expresión.
-      </p>
+      <ClipBoard codigo = 
+      {
+`es_dia_soleado = True
+temperatura_ideal = True
 
-      {/* Ejemplo */}
+if es_dia_soleado and temperatura_ideal:
+    print("Hace un buen día para salir.")`} />
+      </p>
 
       <h5 className="mt-2">
       2. or
@@ -113,6 +122,13 @@ export const OperationsPage = () => {
       <p className="mt-2">
       El operador lógico OR se utiliza cuando solo una de las dos condiciones debe ser <br/>
       verdadera para que se cumpla una expresión.
+      <ClipBoard codigo = 
+      {
+`llueve = False
+nieva = True
+
+if llueve or nieva:
+    print("El clima está inclemente.")`} />
       </p>
 
       {/* Ejemplo */}
@@ -124,6 +140,12 @@ export const OperationsPage = () => {
       <p className="mt-2">
       El operador lógico 'NOT' se utiliza para negar una condición. Si una condición es verdadera,  <br/>
       'NOT' la hace falsa y viceversa.
+      <ClipBoard codigo = 
+      {
+`es_dia_soleado = True
+
+if not es_dia_soleado:
+    print("Hace mal tiempo.")`} />
       </p>
 
       {/* Ejemplo */}

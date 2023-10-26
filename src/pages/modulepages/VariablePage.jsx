@@ -109,8 +109,6 @@ nombre = "Juan"`
 } /> 
       </p>
 
-      
-
       <p className="mt-2">
       En este ejemplo, hemos declarado una variable llamada nombre y luego le hemos asignado<br/>
       el valor "Juan".

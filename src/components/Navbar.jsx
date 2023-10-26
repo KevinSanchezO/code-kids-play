@@ -58,12 +58,6 @@ export const Navbar = () => {
                 <ul className="navbar-nav ml-auto">
                     <button 
                     className='mnav-item nav-link btn'
-                    onClick={redirectFAQ}>
-                        FAQ
-                    </button>
-
-                    <button 
-                    className='mnav-item nav-link btn'
                     onClick={redirectAboutUs}>
                         Sobre nosotros
                     </button>
