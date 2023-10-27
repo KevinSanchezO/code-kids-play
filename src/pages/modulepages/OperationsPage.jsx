@@ -115,6 +115,21 @@ if es_dia_soleado and temperatura_ideal:
     print("Hace un buen día para salir.")`} />
       </p>
 
+      <p className="mt-2">
+      Posiblemente te estas preguntando que es este if en el codigo. A esto se le conoce como<br/>
+      un condicional, este le permite indicar al codigo que realice una acción si se cumple<br/>
+      la condición especificada, en este caso que es_dia_soleado y temperatura_ideal sean True,<br/>
+      se explicara más a fondo estas estructuras en la siguiente sección.
+      </p>
+
+      <p className="mt-2">
+      Seguramente tambien te estaras preguntando ¿qué es este print? Bueno, el print es una<br/>
+      funcion, las cuales veremos más adelante, reservada de Python la cual dentro de los <br/>
+      parentesis decimos que muestre en pantalla el valor que tenga, al correrla en tu entorno <br/>
+      veras que en la terminal se muestra el texto dentro del print, es debido a su función de <br/>
+      escribir texto en la terminal.
+      </p>
+
       <h5 className="mt-2">
       2. or
       </h5>

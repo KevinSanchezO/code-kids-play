@@ -114,6 +114,13 @@ nombre = "Juan"`
       el valor "Juan".
       </p>
 
+      <p className="mt-2">
+        Por cierto ¿vez estas partes en el codigo con el simbolo numeral (#)? Esto es un comentario<br/>
+        de codigo, con esto puedes escribir cosas que no se ejecutaran pero que sirven para<br/>
+        explicar una seccion de codigo, siempre es bueno usarlo para explicar que hace algo y poder<br/>
+        recordarlo cuando vuelvas a leerlo.
+      </p>
+
       <h3 className="mt-2">
       Resumen
       </h3>
@@ -122,6 +129,7 @@ nombre = "Juan"`
         <li>Las variables son como cajas para almacenar información.</li>
         <li>Python maneja diferentes tipos de datos, como números, cadenas de texto y booleanos.</li>
         <li>Para usar una variable, primero debes declararla y luego asignarle un valor.</li>
+        <li>Los comentarios de codigo son lineas que no se ejecutan e inician con #</li>
       </ul>
 
       <ButtonGroup 

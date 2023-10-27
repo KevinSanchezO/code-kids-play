@@ -62,7 +62,15 @@ else:
       Así, dependiendo de tu edad, se muestra un mensaje diferente.
       </p>
 
-
+      <p className="mt-2">
+      Seguramente tambien te preguntas que son los simbolos ({"< y >="}) que aparecen en este <br/>
+      codigo. Estos son valores de comparación de valores. Los basicos son ({"<, > y =="}) que son<br/>
+      para comparar si un valor es menor o mayor que otro en el caso de los dos primeros o ver<br/>
+      si ambos valores son iguales en el caso del tercero. También podemos ver si un valor es<br/>
+      mayor o igual o si es menor o igual con los simbolos {("<=, >=")}. Como lo notaras es<br/>
+      igual a como se ve en clases de matemáticas. Estos simbolos es muy comun usarlos en<br/>
+      lascondicionales entonces recuerda siempre tenerlas en mente.
+      </p>
 
       <h3 className="mt-2">
       Bucles: Repitiendo Acciones en Programación
@@ -159,8 +167,6 @@ print(numero)`} />
       <p className="mt-2">
       Esto imprimirá los números impares del 1 al 9, saltando los números pares.
       </p>
-
-      
 
       <h3 className="mt-2">
       Resumen
