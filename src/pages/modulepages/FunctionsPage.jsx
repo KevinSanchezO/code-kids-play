@@ -143,7 +143,22 @@ longitud = len(frutas)  # Esto devuelve 3
       </p>
 
       <p className="mt-2">
-      Aquí hemos definido una función llamada "suma" que toma dos números y devuelve su suma.  
+      Aquí hemos definido una función llamada "suma" que toma dos números y devuelve su<br/>
+      suma. Las funciones pueden retornar resultados y esto se realiza con la palabra<br/>
+      reservada return. Esto puede permitir guardar las funciones como variables o<br/>
+      como valores.
+      <ClipBoard codigo = 
+      {
+`def suma(numero1, numero2):
+    resultado = numero1 + numero2
+    return resultado
+
+valor = suma(5, 3)
+print(valor) # Esto mostrara 8
+
+otro_valor = suma(6,2) + 2 # La función retorna 8 y se le suma 2 son 10
+print(otro_valor)
+`}/> 
       </p>
 
       <h3 className="mt-2">
