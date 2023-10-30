@@ -24,7 +24,7 @@ export const ButtonGroup = ({prev, next, prevText, nextText}) => {
             <button 
             type="button" 
             className="btn btn-success">
-                Completar sección
+                
             </button>
             
             <button 
