@@ -19,9 +19,9 @@ export const FunctionsPage = () => {
         ¿Qué son las funciones?
       </h3>
 
-      <p className="mt-2">
-      En este módulo, vamos a sumergirnos en el concepto de las funciones en la programación.<br/>
-      Las funciones son como recetas o ordenes que te permiten organizar y reutilizar tu código<br/>
+      <p className="mt-2 narrow-paragraph">
+      En este módulo, vamos a sumergirnos en el concepto de las funciones en la programación.
+      Las funciones son como recetas o ordenes que te permiten organizar y reutilizar tu código
       de una manera sencilla y poderosa.
       </p>
 
@@ -29,19 +29,19 @@ export const FunctionsPage = () => {
       Declaración y llamada de funciones
       </h3>
 
-      <p className="mt-2">
-      Las funciones se componen de dos partes: la declaración y la llamada. La declaración define<br/>
-      lo que hace la función, y la llamada la utiliza en tu código.<br/>
+      <p className="mt-2 narrow-paragraph">
+      Las funciones se componen de dos partes: la declaración y la llamada. La declaración define
+      lo que hace la función, y la llamada la utiliza en tu código.
       </p>
 
       <h5>
       Declaración: Crear la función
       </h5>
 
-      <p className="mt-2">
-      Un ejemplo de como se declara una función en Python es de la siguiente manera. Primero<br/>
-      se usa la palabra def para indicar que esta iniciando la declaración de una función, luego<br/>
-      sigue el nombrar la función en este caso con el nombre {"'saludar'"} y un par de parentesis<br/>
+      <p className="mt-2 narrow-paragraph">
+      Un ejemplo de como se declara una función en Python es de la siguiente manera. Primero
+      se usa la palabra def para indicar que esta iniciando la declaración de una función, luego
+      sigue el nombrar la función en este caso con el nombre {"'saludar'"} y un par de parentesis
       al lado seguido de dos puntos.
       <ClipBoard codigo = 
       {
@@ -54,8 +54,8 @@ export const FunctionsPage = () => {
       Llamada: Hacer uso de la función
       </h5>
 
-      <p className="mt-2">
-      Ahora que has creado tu hechizo, puedes usarlo en tu código, en el mismo archivo donde<br/>
+      <p className="mt-2 narrow-paragraph">
+      Ahora que has creado tu hechizo, puedes usarlo en tu código, en el mismo archivo donde
       declaraste la anterior función solo ocupas llamarla con su nombre y parentesis.
 
       <ClipBoard codigo = 
@@ -63,8 +63,8 @@ export const FunctionsPage = () => {
 `saludar()  # Esto imprime "¡Hola, mago!" en la pantalla.`}/>
       </p>
 
-      <p className="mt-2">
-      Basicamente, una declaración y una llamada de una función queda de la siguiente manera.<br/>
+      <p className="mt-2 narrow-paragraph">
+      Basicamente, una declaración y una llamada de una función queda de la siguiente manera.
       y al ejecutar el siguiente codigo podras ver como se escribe en pantalla {`"¡Hola, mago!"`}
       <ClipBoard codigo = 
       {
@@ -78,11 +78,11 @@ saludar()
       Parámetros y argumentos en funciones
       </h3>
 
-      <p className="mt-2">
-      Las funciones pueden recibir parámetros o argumentos para realizar acciones específicas.<br/>
-      segun la información que presente este o estos valores.<br/>
+      <p className="mt-2 narrow-paragraph">
+      Las funciones pueden recibir parámetros o argumentos para realizar acciones específicas.
+      segun la información que presente este o estos valores.
 
-      Por ejemplo, imagina que quieres crear una función que salude a alguien en particular.<br/>
+      Por ejemplo, imagina que quieres crear una función que salude a alguien en particular.
       Puedes usar un parámetro para personalizarlo.
 
       <ClipBoard codigo = 
@@ -92,8 +92,8 @@ saludar()
 `}/> 
       </p>
 
-      <p className="mt-2">
-      Ahora cuando llamas a la función, le pasas el argumento, que es el valor real que se usará<br/>
+      <p className="mt-2 narrow-paragraph">
+      Ahora cuando llamas a la función, le pasas el argumento, que es el valor real que se usará
       en la función.   
 
       <ClipBoard codigo = 
@@ -106,8 +106,8 @@ saludar()
       Funciones predefinidas y definidas por el usuario  
       </h3>
 
-      <p className="mt-2">
-      En Python, tienes acceso a funciones predefinidas que hacen muchas tareas útiles. También<br/>
+      <p className="mt-2 narrow-paragraph">
+      En Python, tienes acceso a funciones predefinidas que hacen muchas tareas útiles. También
       puedes crear tus propias funciones personalizadas.  
       </p>
 
@@ -115,8 +115,8 @@ saludar()
       Funciones predefinidas  
       </h5>
 
-      <p className="mt-2">
-      Python viene con muchas funciones predefinidas que puedes usar de inmediato. Por <br/>
+      <p className="mt-2 narrow-paragraph">
+      Python viene con muchas funciones predefinidas que puedes usar de inmediato. Por 
       ejemplo, la función "len()" te dice la longitud o cantidad de elementos de una lista.
 
       <ClipBoard codigo = 
@@ -130,8 +130,8 @@ longitud = len(frutas)  # Esto devuelve 3
       Funciones definidas por el usuario
       </h5>
 
-      <p className="mt-2">
-      También puedes crear tus propias funciones personalizadas. Esto te permite organizar y<br/>
+      <p className="mt-2 narrow-paragraph">
+      También puedes crear tus propias funciones personalizadas. Esto te permite organizar y
       reutilizar tu código.
 
       <ClipBoard codigo = 
@@ -142,10 +142,10 @@ longitud = len(frutas)  # Esto devuelve 3
 `}/> 
       </p>
 
-      <p className="mt-2">
-      Aquí hemos definido una función llamada "suma" que toma dos números y devuelve su<br/>
-      suma. Las funciones pueden retornar resultados y esto se realiza con la palabra<br/>
-      reservada return. Esto puede permitir guardar las funciones como variables o<br/>
+      <p className="mt-2 narrow-paragraph">
+      Aquí hemos definido una función llamada "suma" que toma dos números y devuelve su
+      suma. Las funciones pueden retornar resultados y esto se realiza con la palabra
+      reservada return. Esto puede permitir guardar las funciones como variables o
       como valores.
       <ClipBoard codigo = 
       {
@@ -165,7 +165,7 @@ print(otro_valor)
       Resumen
       </h3>
 
-      <ul>
+      <ul className="narrow-paragraph">
         <li>Las funciones son como recetas que te permiten organizar y reutilizar tu código de manera efectiva.</li>
         <li>Una función consta de dos partes: la declaración, donde defines cómo funciona, y la llamada,<br/> donde la utilizas en tu código.</li>
         <li>Los parámetros son como ingredientes que puedes pasar a una función para personalizar su acción.</li>

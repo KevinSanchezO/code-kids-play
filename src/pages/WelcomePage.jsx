@@ -14,7 +14,6 @@ export const WelcomePage = () => {
         más en el mundo del desarrollo de software con ejemplos simples y un ejercicio final muy divertido de realizar.
       </p>
       <p className="d-flex justify-content-center">
-
         ¡Entra, lo pasaras genial. Recuerda seguir las lecciones en orden y nunca parar de aprender!
       </p>
 

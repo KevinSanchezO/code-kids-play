@@ -20,22 +20,20 @@ export const VariablePage = () => {
       ¿Qué son las variables?
       </h3>
 
-      <p className="mt-2">
-      Las variables son como cajas en las que puedes guardar información para usarla más tarde.<br/>  
-      Imagina que tienes una caja llamada "nombre" en la que puedes guardar el nombre de tu <br/>
-      mascota. Cuando quieras saber el nombre de tu mascota, solo tienes que abrir la caja  <br/>
-      "nombre" y ver lo que hay adentro. Las variables son como estas cajas, y te ayudan a guardar  <br/>
+      <p className="mt-2 narrow-paragraph">
+      Las variables son como cajas en las que puedes guardar información para usarla más tarde. 
+      Imagina que tienes una caja llamada "nombre" en la que puedes guardar el nombre de tu
+      mascota. Cuando quieras saber el nombre de tu mascota, solo tienes que abrir la caja
+      "nombre" y ver lo que hay adentro. Las variables son como estas cajas, y te ayudan a guardar
       información en un programa de computadora.
       <ClipBoard codigo = 
       {
 `nombre_mascota = "Rex"`} />
       </p>
 
-
-
-      <p className="mt-2">
-      En este ejemplo, hemos creado una variable llamada 'nombre_mascota' y le hemos asignado<br/>
-      el valor "Rex". Ahora, cuando necesitemos el nombre de nuestra mascota, podemos usar<br/>
+      <p className="mt-2 narrow-paragraph">
+      En este ejemplo, hemos creado una variable llamada 'nombre_mascota' y le hemos asignado
+      el valor "Rex". Ahora, cuando necesitemos el nombre de nuestra mascota, podemos usar
       esta variable.
       </p>
 
@@ -44,8 +42,8 @@ export const VariablePage = () => {
       Tipos de datos en Python: números,<br/>cadenas de texto y booleanos
       </h3>
 
-      <p className="mt-2">
-      Python es un lenguaje de programación que puede manejar diferentes tipos de datos. Aquí<br/>
+      <p className="mt-2 narrow-paragraph">
+      Python es un lenguaje de programación que puede manejar diferentes tipos de datos. Aquí
       hay tres tipos de datos importantes que debes conocer:  
       </p>
 
@@ -53,8 +51,8 @@ export const VariablePage = () => {
       1. Números  
       </h5>
 
-      <p className="mt-2">
-      Los números son útiles para hacer cálculos en la programación. Puedes tener números enteros<br/>
+      <p className="mt-2 narrow-paragraph">
+      Los números son útiles para hacer cálculos en la programación. Puedes tener números enteros
       (como 5) o números con decimales (como 3.14).  
       <ClipBoard codigo = 
       {
@@ -67,8 +65,8 @@ nota = 8.5`
       2. Cadenas de texto 
       </h5>
 
-      <p className="mt-2">
-      Las cadenas de texto son como palabras o frases que puedes usar en tus programas. Puedes<br/>
+      <p className="mt-2 narrow-paragraph">
+      Las cadenas de texto son como palabras o frases que puedes usar en tus programas. Puedes
       poner texto entre comillas simples (' ') o comillas dobles (" "). 
       <ClipBoard codigo = 
       {
@@ -81,8 +79,8 @@ frase = 'Hola, ¿cómo estás?'`
       2. Booleanos
       </h5>
 
-      <p className="mt-2">
-      Los booleanos son como interruptores que pueden estar "encendidos" (True) o "apagados" <br/>
+      <p className="mt-2 narrow-paragraph">
+      Los booleanos son como interruptores que pueden estar "encendidos" (True) o "apagados"
       (False). Los usamos para tomar decisiones en la programación.
       <ClipBoard codigo = 
       {
@@ -95,9 +93,9 @@ es_noche = False`
       Declaración de variables y asignación de valores
       </h3>
 
-      <p className="mt-2">
-      Para crear una variable, primero debes declararla y luego asignarle un valor. La declaración <br/>
-      le dice a la computadora que quieres usar una caja, y la asignación le dice qué guardar <br/>
+      <p className="mt-2 narrow-paragraph">
+      Para crear una variable, primero debes declararla y luego asignarle un valor. La declaración
+      le dice a la computadora que quieres usar una caja, y la asignación le dice qué guardar
       dentro de la caja.
       <ClipBoard codigo = 
       {
@@ -109,15 +107,15 @@ nombre = "Juan"`
 } /> 
       </p>
 
-      <p className="mt-2">
-      En este ejemplo, hemos declarado una variable llamada nombre y luego le hemos asignado<br/>
+      <p className="mt-2 narrow-paragraph">
+      En este ejemplo, hemos declarado una variable llamada nombre y luego le hemos asignado
       el valor "Juan".
       </p>
 
-      <p className="mt-2">
-        Por cierto ¿vez estas partes en el codigo con el simbolo numeral (#)? Esto es un comentario<br/>
-        de codigo, con esto puedes escribir cosas que no se ejecutaran pero que sirven para<br/>
-        explicar una seccion de codigo, siempre es bueno usarlo para explicar que hace algo y poder<br/>
+      <p className="mt-2 narrow-paragraph">
+        Por cierto ¿vez estas partes en el codigo con el simbolo numeral (#)? Esto es un comentario
+        de codigo, con esto puedes escribir cosas que no se ejecutaran pero que sirven para
+        explicar una seccion de codigo, siempre es bueno usarlo para explicar que hace algo y poder
         recordarlo cuando vuelvas a leerlo.
       </p>
 
@@ -125,7 +123,7 @@ nombre = "Juan"`
       Resumen
       </h3>
 
-      <ul>
+      <ul className="mt-2 narrow-paragraph">
         <li>Las variables son como cajas para almacenar información.</li>
         <li>Python maneja diferentes tipos de datos, como números, cadenas de texto y booleanos.</li>
         <li>Para usar una variable, primero debes declararla y luego asignarle un valor.</li>

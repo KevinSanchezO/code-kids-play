@@ -20,9 +20,9 @@ export const ListsPage = () => {
       Introducción a las listas
       </h3>
 
-      <p className="mt-2">
-      ¡Hola! En este módulo, vamos a adentrarnos en el concepto de las listas en programación<br/>
-      con el lenguaje Python. Las listas son como colecciones de elementos que te permiten<br/>
+      <p className="mt-2 narrow-paragraph">
+      ¡Hola! En este módulo, vamos a adentrarnos en el concepto de las listas en programación
+      con el lenguaje Python. Las listas son como colecciones de elementos que te permiten
       almacenar y organizar datos de manera eficiente. 
       </p>
 
@@ -30,13 +30,13 @@ export const ListsPage = () => {
       Acceso a elementos de una lista
       </h3>
 
-      <p className="mt-2">
-      En una lista, cada elemento tiene una posición específica, llamada índice. Puedes acceder a<br/>
+      <p className="mt-2 narrow-paragraph">
+      En una lista, cada elemento tiene una posición específica, llamada índice. Puedes acceder a
       los elementos de una lista utilizando estos índices.   
       </p>
 
-      <p className="mt-2">
-      Imagina que tu lista es como una serie de cajones numerados. Cada cajón tiene algo dentro<br/>
+      <p className="mt-2 narrow-paragraph">
+      Imagina que tu lista es como una serie de cajones numerados. Cada cajón tiene algo dentro
       y puedes acceder a ellos por su número iniciando por el 0.
       <ClipBoard codigo = 
       {
@@ -46,8 +46,8 @@ primera_fruta = frutas[0]  # Esto es "manzana"
 segunda_fruta = frutas[1]  # Esto es "plátano"`} />
       </p>
 
-      <p className="mt-2">
-      Claro, estos indices como valores positivos de 0 a 1 retorna los valores de derecha a izquiera<br/>
+      <p className="mt-2 narrow-paragraph">
+      Claro, estos indices como valores positivos de 0 a 1 retorna los valores de derecha a izquiera
       pero también se pueden obtener los valores de derecha a izquierda con indices negativos
       <ClipBoard codigo = 
       {
@@ -59,14 +59,14 @@ segunda_fruta = frutas[-2]  # Esto es "uva"`} />
 
       <h3>Operaciones comunes en listas</h3>
 
-      <p className="mt-2">
-      Las listas son versátiles y te permiten realizar operaciones comunes, como agregar, eliminar <br/>
+      <p className="mt-2 narrow-paragraph">
+      Las listas son versátiles y te permiten realizar operaciones comunes, como agregar, eliminar
       y modificar elementos.  
       </p>
 
       <h5>Agregar elementos</h5>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Puedes agregar elementos al final de una lista usando el método "append()" al final de la lista.
       <ClipBoard codigo = 
       {
@@ -78,8 +78,8 @@ colores.append("azul")
 
       <h5>Eliminar elementos</h5>
 
-      <p className="mt-2">
-      Puedes eliminar elementos de una lista utilizando "del" que permite eliminar por indice o el <br/>
+      <p className="mt-2 narrow-paragraph">
+      Puedes eliminar elementos de una lista utilizando "del" que permite eliminar por indice o el
       método "remove()" que elimina por el valor.
       <ClipBoard codigo = 
       {
@@ -89,14 +89,14 @@ numeros.remove("manzana")  # Esto elimina "manzana"
 `}/>   
       </p>
 
-      <p className="mt-2">
-      Usando del, especificas el índice del elemento a eliminar. Con remove(), especificas el<br/>
+      <p className="mt-2 narrow-paragraph">
+      Usando del, especificas el índice del elemento a eliminar. Con remove(), especificas el
       valor del elemento.   
       </p>
 
       <h5>Modificar elementos</h5>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Puedes cambiar el valor de un elemento en la lista simplemente asignándole un nuevo valor.  
       <ClipBoard codigo = 
       {
@@ -108,14 +108,14 @@ dias_semana[0] = "domingo"
 
       <h3>Bucles y listas</h3>
 
-      <p className="mt-2">
-      Los bucles son excelentes para recorrer elementos en una lista y realizar acciones en cada<br/>
+      <p className="mt-2 narrow-paragraph">
+      Los bucles son excelentes para recorrer elementos en una lista y realizar acciones en cada
       uno de ellos. 
       </p>
 
       <h5>Bucles for</h5>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       El bucle "for" te permite recorrer una lista y realizar acciones en cada elemento.
       <ClipBoard codigo = 
       {
@@ -128,7 +128,7 @@ for fruta in frutas:
 
       <h5>Bucles while</h5>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       También puedes usar el bucle "while" para recorrer una lista de manera controlada.
       <ClipBoard codigo = 
       {
@@ -141,9 +141,25 @@ while indice < len(frutas):
 `}/>    
       </p>
 
+      <h3>Matrices</h3>
+
+      <p className="mt-2 narrow-paragraph">
+      Las listas pueden almacenar listas dentro de ellas, a esto se le conoce como una matriz.
+      El uso de una matriz es el mismo que el de una lista con el agregado de que para el acceso
+      a un elemento dentro de una lista de la matriz se le agrega un par de [] extra      
+      <ClipBoard codigo = 
+      {
+`despensa = [["consome",10],["sal", 2], ["pimienta", 1]]
+print(despensa[1][0]) #esto muestra en pantalla "sal"
+
+for objeto in despensa:
+      print(objeto[0][1]) #muestra todos los objetos en la despensa`            
+      }/>      
+      </p>
+
       <h3>Resumen</h3>
 
-      <ul>
+      <ul className="narrow-paragraph">
         <li>Las listas son colecciones de elementos que te permiten almacenar y organizar datos.</li>
         <li>Puedes acceder a elementos de una lista utilizando índices.</li>
         <li>Las listas admiten operaciones comunes como agregar, eliminar y modificar elementos.</li>

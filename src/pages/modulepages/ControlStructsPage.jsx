@@ -21,9 +21,9 @@ export const ControlStructsPage = () => {
       Introducción a las Estructuras de Control
       </h3>
 
-      <p className="mt-2">
-      En este módulo, vamos a explorar un aspecto fundamental de la programación: las <br/>
-      Estructuras de Control. Estas estructuras son como las herramientas que te permiten tomar <br/>
+      <p className="mt-2 narrow-paragraph">
+      En este módulo, vamos a explorar un aspecto fundamental de la programación: las 
+      Estructuras de Control. Estas estructuras son como las herramientas que te permiten tomar 
       decisiones, repetir acciones y tener un mayor control sobre tu código.
       </p>
 
@@ -33,8 +33,8 @@ export const ControlStructsPage = () => {
       Condicionales: Tomando Decisiones en Programación  
       </h3>
 
-      <p className="mt-2">
-      Las condicionales son como las bifurcaciones en un camino que te permiten decidir el <br/>   
+      <p className="mt-2 narrow-paragraph">
+      Las condicionales son como las bifurcaciones en un camino que te permiten decidir el  
       rumbo de tu programa. En Python, usamos condicionales para tomar decisiones lógicas.
       </p>
 
@@ -42,9 +42,9 @@ export const ControlStructsPage = () => {
       if - elif - else: Selección de Caminos
       </h5>
 
-      <p className="mt-2">
-      Imagina que estás en una encrucijada y debes elegir un camino. Los condicionales <br/>
-      funcionan de manera similar, te permiten elegir entre varias opciones en función de <br/>
+      <p className="mt-2 narrow-paragraph">
+      Imagina que estás en una encrucijada y debes elegir un camino. Los condicionales
+      funcionan de manera similar, te permiten elegir entre varias opciones en función de
       condiciones específicas.
       <ClipBoard codigo = 
       {
@@ -58,17 +58,17 @@ else:
     print("Eres un adulto.")`} />
       </p>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Así, dependiendo de tu edad, se muestra un mensaje diferente.
       </p>
 
-      <p className="mt-2">
-      Seguramente tambien te preguntas que son los simbolos ({"< y >="}) que aparecen en este <br/>
-      codigo. Estos son valores de comparación de valores. Los basicos son ({"<, > y =="}) que son<br/>
-      para comparar si un valor es menor o mayor que otro en el caso de los dos primeros o ver<br/>
-      si ambos valores son iguales en el caso del tercero. También podemos ver si un valor es<br/>
-      mayor o igual o si es menor o igual con los simbolos {("<=, >=")}. Como lo notaras es<br/>
-      igual a como se ve en clases de matemáticas. Estos simbolos es muy comun usarlos en<br/>
+      <p className="mt-2 narrow-paragraph">
+      Seguramente tambien te preguntas que son los simbolos ({"< y >="}) que aparecen en este
+      codigo. Estos son valores de comparación de valores. Los basicos son ({"<, > y =="}) que son
+      para comparar si un valor es menor o mayor que otro en el caso de los dos primeros o ver
+      si ambos valores son iguales en el caso del tercero. También podemos ver si un valor es
+      mayor o igual o si es menor o igual con los simbolos {("<=, >=")}. Como lo notaras es
+      igual a como se ve en clases de matemáticas. Estos simbolos es muy comun usarlos en
       lascondicionales entonces recuerda siempre tenerlas en mente.
       </p>
 
@@ -76,8 +76,8 @@ else:
       Bucles: Repitiendo Acciones en Programación
       </h3>
 
-      <p className="mt-2">
-      Los bucles son como ciclos que te permiten repetir una acción varias veces. Son útiles para <br/>
+      <p className="mt-2 narrow-paragraph">
+      Los bucles son como ciclos que te permiten repetir una acción varias veces. Son útiles para
       realizar tareas repetitivas.
       </p>
 
@@ -85,8 +85,8 @@ else:
       while: La Repetición Controlada
       </h5>
 
-      <p className="mt-2">
-      El bucle "while" te permite repetir una acción mientras una condición sea verdadera. Es <br/>
+      <p className="mt-2 narrow-paragraph">
+      El bucle "while" te permite repetir una acción mientras una condición sea verdadera. Es 
       como repetir una tarea hasta que se cumpla cierta condición.
       <ClipBoard codigo = 
       {
@@ -97,7 +97,7 @@ while contador < 5:
     contador += 1`} />
       </p>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Así, se imprime "Hola, mundo" cinco veces.  
       </p>
 
@@ -105,8 +105,8 @@ while contador < 5:
       for: Recorriendo Elementos
       </h5>
 
-      <p className="mt-2">
-      El bucle "for" es ideal para recorrer elementos en una colección, como una lista. Facilita la <br/>
+      <p className="mt-2 narrow-paragraph">
+      El bucle "for" es ideal para recorrer elementos en una colección, como una lista. Facilita la
       iteración a través de los elementos.
       <ClipBoard codigo = 
       {
@@ -116,7 +116,7 @@ for color in colores:
     print("Color: " + color)`} />
       </p>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Esto mostrará los colores uno por uno.  
       </p>
 
@@ -124,8 +124,8 @@ for color in colores:
       Uso de las instrucciones break y continue
       </h3>
 
-      <p className="mt-2">
-      Las instrucciones break y continue son herramientas adicionales para controlar tus <br/>
+      <p className="mt-2 narrow-paragraph">
+      Las instrucciones break y continue son herramientas adicionales para controlar tus
       estructuras de control.
       </p>
 
@@ -133,8 +133,8 @@ for color in colores:
       break: Rompiendo el Bucle
       </h5>
 
-      <p className="mt-2">
-      La instrucción "break" te permite salir inmediatamente de un bucle si se cumple cierta <br/>  
+      <p className="mt-2 narrow-paragraph">
+      La instrucción "break" te permite salir inmediatamente de un bucle si se cumple cierta
       condición.
       <ClipBoard codigo = 
       {
@@ -144,7 +144,7 @@ if numero == 5:
 print(numero)`} />
       </p>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Esto imprimirá los números del 0 al 4 y luego saldrá del bucle.
       </p>
 
@@ -152,7 +152,7 @@ print(numero)`} />
       continue: Saltando Iteraciones
       </h5>
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       La instrucción "continue" te permite saltar una iteración y pasar a la siguiente en un bucle.
       <ClipBoard codigo = 
       {
@@ -164,7 +164,7 @@ print(numero)`} />
 
       {/* Ejemplo */}
 
-      <p className="mt-2">
+      <p className="mt-2 narrow-paragraph">
       Esto imprimirá los números impares del 1 al 9, saltando los números pares.
       </p>
 
@@ -172,7 +172,7 @@ print(numero)`} />
       Resumen
       </h3>
 
-      <ul>
+      <ul className="narrow-paragraph">
         <li>Las Estructuras de Control son fundamentales en programación y te permiten tomar
         <br/>decisiones y repetir acciones. </li>
         <li>Los condicionales (if, elif, else) son como caminos que eliges en función de condiciones.</li>

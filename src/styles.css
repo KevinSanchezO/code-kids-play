@@ -1,0 +1,8 @@
+.narrow-paragraph {
+  max-width: 600px; 
+}
+
+.max-width-image {
+  width: 50%;
+  height: auto;
+}
